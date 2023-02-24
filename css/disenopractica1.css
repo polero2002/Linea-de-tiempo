@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+header {
+    width: 800px;
+    font-family: 'abril-fatface';
+    position: fixed;
+
+}
+
+body {
+    background-color: cyan;
+    transition: all 0.7s linear;
+
+}
+
+.img1 {
+    float: right;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+footer {
+
+    width: 100%;
+    align-content: center;
+    padding: 3rem 0;
+    text-align: center;
+
+    margin-right: 6rem;
+    transition: all 0.7s linear;
+    position: absolute;
+
+}
+
+#decadas {
+
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    text-align: center;
+    width: 1000px;
+    border: groove;
+    border-color: ghostwhite;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: rgb(133, 136, 130);
+    border-radius: 20px;
+
+}
+
+ul,
+ol {
+    color: white;
+    list-style: none;
+}
+
+
+#contacto {
+    color: black;
+}
+
+#titulo {
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding-left: 350px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#linea {
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: large
+}
+
+#links {
+    text-align: center;
+}
+
+#header {
+    background-color: #1db954;
+    display: flex;
+ 
+    align-items: center;
+    flex-wrap: wrap;
+    left: 0;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-sizing: border-box;
+
+}
+
+
+#pie {
+    width: 100%;
+    background: black;
+    padding: 3rem 0;
+    text-align: center;
+    margin-right: 6rem;
+    transition: 0.7s linear;
+    position: absolute;
+
+    margin-left: 0;
+}
+
+body {
+    background-color: #212121;
+    transition: all 0.7s linear;
+
+}
+
+
+#header .imgtec {
+    float: left;
+}
+
+a{
+    text-decoration: none;
+}
